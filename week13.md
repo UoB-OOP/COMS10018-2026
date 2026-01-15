@@ -45,8 +45,8 @@ You should have completed the setup process in Task 0 before doing this. To chec
 javac and java commands installed properly, type:
 
 ```shell
-> javac -version
-> java -version
+javac -version
+java -version
 ```
 
 You should get a message mentioning the version number (should be the same for both `java`
@@ -60,7 +60,7 @@ the filestore is (partly) case-insensitive. Now try compiling your Java program 
 directory:
 
 ```shell
-> javac RobotWorld.java
+javac RobotWorld.java
 ````
 
 You will find that this has created two files called `Robot.class` and `RobotWorld.class`. The
@@ -68,7 +68,7 @@ compiler realised there was a dependency and that both Java class files are requ
 and thus compiled both. Now run the program:
 
 ```shell
-> java RobotWorld
+java RobotWorld
 C3PO says 'Hello, Java!'
 ```
 
@@ -92,7 +92,7 @@ To achieve all this, first install Git on your system (which is already installe
 check all is setup properly asking for the Git version ready to run:
 
 ```shell
-> git --version
+git --version
 ```
 Note that we advise that Windows users use [Git for Windows](https://gitforwindows.org/) as this seamlessly manages your credentials. 
 Linux and Mac users should refer to Github's guide: [Connecting to GitHub with SSH](https://docs.github.com/en/github-ae@latest/authentication/connecting-to-github-with-ssh).
@@ -111,13 +111,13 @@ Now, on your local machine, navigate into the directory where your .java and .cl
 and initialise this directory as a Git repository or 'repo' via:
 
 ```shell
-> git init
+git init
 ```
 
 Then make sure that you're using the 'main' branch.
 
 ```shell
-> git checkout -b main
+git checkout -b main
 ```
 
 **We will be uploading the content of the directory where you run `git init` to GitHub later; do not
@@ -129,14 +129,14 @@ your directory. Next we want to add all our project files to the repository, so 
 managed. Use the following command within your directory to do this:
 
 ```shell
-> git add .
+git add .
 ```
 
 (Note that in future you may not want to add .class files since those can be reproduced from source
 code) We can now check out our repository by probing its status:
 
 ```shell
-> git status
+git status
 ```
 
 This will provide you with the list of the new files that are in your repository (in green) and some
@@ -144,7 +144,7 @@ info. To commit the current version of files (that is taking a snapshot of the c
 execute:
 
 ```shell
-> git commit -am "initial version"
+git commit -am "initial version"
 ```
 
 The -a option says to commit all the changes and additions you have made. The -m option says to
@@ -156,12 +156,12 @@ summary of your workflow when using Git is roughly:
 # do a small amount of work
 # get the project back into a working (e.g compiling) state
 
-> git status  # see what's changed
-> git add X   # track new files
+git status  # see what's changed
+git add X   # track new files
 
 #  you may wish to edit .gitignore to ignore unwanted files at this point
 
-> git commit -am "Description the changes you have made" # take a snapshot
+git commit -am "Description the changes you have made" # take a snapshot
 ```
 
 Now it is time to link your local repository to the Github repository you have created online. To do
@@ -169,11 +169,11 @@ this, we first connect your local project directory with your online repository:
 
 Windows users:
 ```shell
-> git remote add origin  https://github.com/USERNAME/OOP-01.git
+git remote add origin  https://github.com/USERNAME/OOP-01.git
 ```
 Linux and Mac users:
 ```shell
-> git remote add origin git@github.com:USERNAME/OOP-01.git
+git remote add origin git@github.com:USERNAME/OOP-01.git
 ```
 
 where USERNAME is the username used to create the repository. (Depending on how you set up your
@@ -182,8 +182,8 @@ via `git remote rm origin`). Once this is set up it is time to upload (or *push*
 project files to the online repository for the first time:
 
 ```shell
-> git branch -m main # needed because older git versions still defaults to `master`
-> git push -u origin main
+git branch -m main # needed because older git versions still defaults to `master`
+git push -u origin main
 ```
 
 This will ask you for your Github password. Once this is entered, your files will be uploaded to the
@@ -213,7 +213,7 @@ Download git bash and follow the steps
 
 Linux Users:
 ```sh
-> cat ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub
 ```
 Then go into GitHub under user settings go to `SSH and GPG keys`,
 Create a new key and paste the output from the terminal into the key field.
@@ -223,7 +223,7 @@ MacOS Users:
 Make sure you have [homebrew](https://brew.sh) installed and run `brew install gh`. After it has installed run: 
 
 ```sh
-> gh auth login
+gh auth login
 ```
 
 and follow the instructions to login. Select GitHub.com when asked where to authenticate. 
@@ -233,29 +233,29 @@ command at the top of the page, it should look like:
 
 Windows users:
 ```sh
-> git clone https://github.com/THE_USERNAME_OF_THE_PERSON_WHO_CREATED_THE_REPO_AND_SHARED_IT_WITH_YOU/foo.git
+git clone https://github.com/THE_USERNAME_OF_THE_PERSON_WHO_CREATED_THE_REPO_AND_SHARED_IT_WITH_YOU/foo.git
 ```
 Linux and Mac users:
 ```sh
-> git clone git@github.com:THE_USERNAME_OF_THE_PERSON_WHO_CREATED_THE_REPO_AND_SHARED_IT_WITH_YOU/foo.git
+git clone git@github.com:THE_USERNAME_OF_THE_PERSON_WHO_CREATED_THE_REPO_AND_SHARED_IT_WITH_YOU/foo.git
 ```
 Clone the repository with the command. When you are collaborating, each partner has a clone of the
 same online repo. You need to make sure you can both read from and write to it. Your workflow is
 now, roughly:
 
 ```shell
-> git pull    # update project from remote before you start working! 
+git pull    # update project from remote before you start working! 
 
 # do a small amount of work
 # get the project back into a working (e.g compiling) state
 
-> git status  # see what's changed
-> git add .   # track new files
+git status  # see what's changed
+git add .   # track new files
 
 #  you may wish to edit .gitignore to ignore unwanted files at this point
 
-> git commit -am "Description the changes you have made" # take a snapshot
-> git push    # upload to remote
+git commit -am "Description the changes you have made" # take a snapshot
+git push    # upload to remote
 ```
 
 If the push command doesn't work, one common problem is that you forgot to commit first. But a more
@@ -293,8 +293,8 @@ the .git subdirectory, so this is not a good idea. A better idea, from inside th
 is to type:
 
 ```shell
-> git commit -am "All done!"
-> git archive main -o project.zip
+git commit -am "All done!"
+git archive main -o project.zip
 ```
 
 This zips up a current snapshot of your project. Apart from having a strange hash string as the
