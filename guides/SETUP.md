@@ -95,7 +95,7 @@ launch).
 Once you are at the product list window, click `install` on the  `IntelliJ IDEA Ultimate Edition`
 entry.
 `IntelliJ IDEA Ultimate Edition` should be available in your window manager. Check that you can start
-IntelliJ without issues. Activate it by using the license server (http://ls-jetbrains.bris.ac.uk:8080) or by [registering for a JetBrains account](https://account.jetbrains.com/login) using your university email.
+IntelliJ without issues. Activate it by [registering for a JetBrains account](https://account.jetbrains.com/login) using your university email.
 
 Proceed to setup Java [here](INTELLIJ_JDK_SETUP.md).
 
@@ -116,6 +116,6 @@ Once the app is copied, click on the icon and accept the EULA, a product list sh
 for `JetBrains Toolbox` in Spotlight if you cannot locate the app. At the product list window,
 click `install` on the  `IntelliJ IDEA Ultimate Edition` entry.
 `IntelliJ IDEA Ultimate Edition` should be available in *Launchpad*. Check that you can start
-IntelliJ without issues. Activate it by using the license server (http://ls-jetbrains.bris.ac.uk:8080) or by [registering for a JetBrains account](https://account.jetbrains.com/login) using your university email.
+IntelliJ without issues. Activate it by [registering for a JetBrains account](https://account.jetbrains.com/login) using your university email.
 
 Proceed to setup Java [here](INTELLIJ_JDK_SETUP.md).
