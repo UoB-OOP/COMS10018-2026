@@ -28,7 +28,7 @@ To launch the correct IntelliJ, type "intellij" in the launcher prompt (hover ov
 If you are prompted about registering the product, the licence server is located here: http://ls-jetbrains.bris.ac.uk:8080.
  -->
 
-Proceed to setup Java for lab machines [here](MVB2.1126)
+Proceed to setup Java for lab machines [here](MVBLinuxJava.md)
 
 ### Remote Access to Lab machines
 
