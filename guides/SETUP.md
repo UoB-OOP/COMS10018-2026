@@ -10,6 +10,8 @@ This guide will help you install the following software:
 
 The general process is to first install IntelliJ (our Java IDE) and then install Java through IntelliJ's user interface.
 
+Proceed to setup Java [here](INTELLIJ_JDK_SETUP.md).
+
 You may already have some version of Java installed, we will be installing a separate one through IntelliJ 
 so you can leave it as-is.
 
@@ -25,7 +27,8 @@ To launch the correct IntelliJ, type "intellij" in the launcher prompt (hover ov
 <!-- 
 If you are prompted about registering the product, the licence server is located here: http://ls-jetbrains.bris.ac.uk:8080.
  -->
-Proceed to setup Java [here](INTELLIJ_JDK_SETUP.md).
+
+Proceed to setup Java for lab machines [here](#)
 
 ### Remote Access to Lab machines
 
