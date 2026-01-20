@@ -6,6 +6,8 @@ This guide will help you install the following software:
 * IntelliJ IDEA Ultimate Edition 2020.3.2 or newer ([the **community** edition](https://www.jetbrains.com/idea/download/other.html)) will work fine for this unit and does not require registering if you prefer (just download the latest one).
 * Java (JDK) 17 (it is fine to use a later version, but you should limit language features to 17 in IntelliJ)
 
+  ![](intellij_tutorial/LanguageLevel.png)
+
 The general process is to first install IntelliJ (our Java IDE) and then install Java through IntelliJ's user interface.
 
 You may already have some version of Java installed, we will be installing a separate one through IntelliJ 
