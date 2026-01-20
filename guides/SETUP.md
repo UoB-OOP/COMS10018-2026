@@ -20,10 +20,11 @@ not a supported configuration.**
 
 A fairly recent version Git is already installed.
 
-To launch the correct IntelliJ, type "ultimate" in the launcher prompt (hover over top left of screen with mouse):
+To launch the correct IntelliJ, type "intellij" in the launcher prompt (hover over top left of screen with mouse):
 
+<!-- 
 If you are prompted about registering the product, the licence server is located here: http://ls-jetbrains.bris.ac.uk:8080.
-
+ -->
 Proceed to setup Java [here](INTELLIJ_JDK_SETUP.md).
 
 ### Remote Access to Lab machines
