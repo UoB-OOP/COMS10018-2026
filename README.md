@@ -17,6 +17,12 @@ and [third-party resources](guides/RESOURCES.md).
 
 ---
 
+**Summative assignment (100%)**:
+
+* Week 18
+    * [The ScotlandYard project](summative/README.md)
+---
+
 
 
 For specific topics, visit (most of these resources are a little dated, but still useful):
