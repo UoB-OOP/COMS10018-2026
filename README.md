@@ -19,7 +19,7 @@ and [third-party resources](guides/RESOURCES.md).
 
 **Summative assignment (100%)**:
 
-* Week 18
+* Week 19
     * [The ScotlandYard project](summative/README.md)
 ---
 
